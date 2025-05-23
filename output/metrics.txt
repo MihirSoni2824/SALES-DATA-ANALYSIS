@@ -1,0 +1,11 @@
+DATA ANALYSIS REPORT
+
+Columns: ['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Ship Mode', 'Customer ID', 'Customer Name', 'Segment', 'Country', 'City', 'State', 'Postal Code', 'Region', 'Product ID', 'Category', 'Sub-Category', 'Product Name', 'Sales', 'Quantity', 'Discount', 'Profit']
+Total records before cleaning: 9994
+After dropping duplicates: 9994 rows
+After dropping missing values: 9994 rows
+Converted 'Order Date' to datetime format.
+
+Linear Regression Results:
+  R² Score: 0.2357
+  Mean Squared Error: 296841.03
